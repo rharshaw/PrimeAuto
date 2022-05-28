@@ -11,6 +11,11 @@
 		96821CD22842A77600FA9F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96821CD12842A77600FA9F21 /* ContentView.swift */; };
 		96821CD42842A77700FA9F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96821CD32842A77700FA9F21 /* Assets.xcassets */; };
 		96821CD72842A77700FA9F21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96821CD62842A77700FA9F21 /* Preview Assets.xcassets */; };
+		96821CDE2842AAFA00FA9F21 /* VehicleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96821CDD2842AAFA00FA9F21 /* VehicleInfoView.swift */; };
+		96821CE02842AB3F00FA9F21 /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96821CDF2842AB3F00FA9F21 /* VehicleViewModel.swift */; };
+		96821CE22842AB4A00FA9F21 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96821CE12842AB4A00FA9F21 /* Vehicle.swift */; };
+		96821CE42842B28C00FA9F21 /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96821CE32842B28C00FA9F21 /* AddVehicleView.swift */; };
+		96825E012842BEE7005DA0BA /* VehicleSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96825E002842BEE7005DA0BA /* VehicleSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		96821CD12842A77600FA9F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96821CD32842A77700FA9F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96821CD62842A77700FA9F21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96821CDD2842AAFA00FA9F21 /* VehicleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfoView.swift; sourceTree = "<group>"; };
+		96821CDF2842AB3F00FA9F21 /* VehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
+		96821CE12842AB4A00FA9F21 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		96821CE32842B28C00FA9F21 /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		96825E002842BEE7005DA0BA /* VehicleSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				96821CCF2842A77600FA9F21 /* PrimeAutoApp.swift */,
 				96821CD12842A77600FA9F21 /* ContentView.swift */,
+				96821CDD2842AAFA00FA9F21 /* VehicleInfoView.swift */,
+				96821CDF2842AB3F00FA9F21 /* VehicleViewModel.swift */,
+				96821CE12842AB4A00FA9F21 /* Vehicle.swift */,
 				96821CD32842A77700FA9F21 /* Assets.xcassets */,
 				96821CD52842A77700FA9F21 /* Preview Content */,
+				96821CE32842B28C00FA9F21 /* AddVehicleView.swift */,
+				96825E002842BEE7005DA0BA /* VehicleSearchView.swift */,
 			);
 			path = PrimeAuto;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				96821CD22842A77600FA9F21 /* ContentView.swift in Sources */,
+				96821CE02842AB3F00FA9F21 /* VehicleViewModel.swift in Sources */,
+				96821CDE2842AAFA00FA9F21 /* VehicleInfoView.swift in Sources */,
+				96825E012842BEE7005DA0BA /* VehicleSearchView.swift in Sources */,
+				96821CE22842AB4A00FA9F21 /* Vehicle.swift in Sources */,
 				96821CD02842A77600FA9F21 /* PrimeAutoApp.swift in Sources */,
+				96821CE42842B28C00FA9F21 /* AddVehicleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

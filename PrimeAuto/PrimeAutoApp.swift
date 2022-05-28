@@ -11,7 +11,7 @@ import SwiftUI
 struct PrimeAutoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddVehicleView()
         }
     }
 }
